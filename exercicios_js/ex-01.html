@@ -1,0 +1,34 @@
+<!-- 1. Soma de Dois Números
+Descrição:
+Peça ao usuário dois números e exiba a soma deles.
+Tarefas:
+Crie uma função soma que receba dois números como parâmetros.
+Exiba o resultado no console ou em um alert. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function soma(numero1,numero2,resultado){
+            numero1 = window.prompt("Digite o primeiro numero: ");
+            numero2 = window.prompt("Digite o segundo numero: ");
+            resultado = parseInt(numero1) + parseInt(numero2);
+            alert ("valor da soma é: " + resultado);
+        }
+        soma();
+    </script>
+    <!-- <script>
+        var numero1=prompt("digite um numero: ");
+        var numero2=prompt("digite outro numero: ");
+        function soma(){
+            var resultado = parseint(numero1) + parseint(numero2);
+            window.alert ("A soma dos dois valores é: " + resultado);
+        }
+        soma();
+    </script> -->
+</body>
+</html>

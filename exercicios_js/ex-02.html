@@ -1,0 +1,30 @@
+<!-- 2. Verificação de Par ou Ímpar
+Descrição:
+Peça ao usuário um número e diga se ele é par ou ímpar.
+Tarefas:
+Crie uma função que receba um número.
+Verifique se o número é divisível por 2.
+Exiba no console "O número é par" ou "O número é ímpar". -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function ParImpar(){
+            var num=prompt("digite um número e eu direi se é par ou ímpar: ");
+            if (num %2 ==0){
+                window.alert("o número digitado é par")
+            }
+            else{
+                window.alert("Número ímpar")
+            }
+
+        }
+        ParImpar();
+    </script>
+</body>
+</html>
